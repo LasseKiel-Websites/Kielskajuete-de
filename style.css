@@ -599,48 +599,29 @@ KONTAKT
 
 @media screen and (max-width: 480px) {
 
-    .kontakt {
+    #kontakt {
         width: 100%;
-        max-width: 100%;
-        padding: 0 15px;
-        overflow: hidden;
+        padding: 0 25px 0 10px;
     }
 
-    .kontakt h2 {
-        font-size: 23px;
-        padding: 40px 0;
+    #kontakt h2 {
         text-align: center;
     }
 
-    .kontaktinfos-grid {
+    #kontakt .kontaktinfos-grid {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 20px;
-
         width: 100%;
-        max-width: 100%;
-        min-width: 0;
+        margin-left: 0;
         padding: 0;
-        margin: 0 auto 60px;
+        transform: none;
     }
 
-    .kontaktinfo-item {
+    #kontakt .kontaktinfo-item {
         width: 100%;
-        max-width: 100%;
-        min-width: 0;
         text-align: center;
-        font-size: 15px;
-        line-height: 1.8;
-        overflow-wrap: anywhere;
         margin: 0;
-    }
-
-    .kontaktinfo-item a {
-        display: inline-block;
-        max-width: 100%;
-        overflow-wrap: anywhere;
-        word-break: break-word;
     }
 
 }
