@@ -601,11 +601,13 @@ KONTAKT
 
     .kontakt {
         width: 100%;
-        padding: 0 20px;
+        max-width: 100%;
+        padding: 0 15px;
+        overflow: hidden;
     }
 
     .kontakt h2 {
-        font-size: 24px;
+        font-size: 23px;
         padding: 40px 0;
         text-align: center;
     }
@@ -614,25 +616,31 @@ KONTAKT
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 25px;
+        gap: 20px;
 
         width: 100%;
-        margin: 0 auto 60px;
+        max-width: 100%;
+        min-width: 0;
         padding: 0;
+        margin: 0 auto 60px;
     }
 
     .kontaktinfo-item {
         width: 100%;
+        max-width: 100%;
+        min-width: 0;
         text-align: center;
         font-size: 15px;
         line-height: 1.8;
         overflow-wrap: anywhere;
+        margin: 0;
     }
 
-    .kontaktinfos-grid a {
-        font-size: 15px;
-        color: #777;
+    .kontaktinfo-item a {
+        display: inline-block;
+        max-width: 100%;
         overflow-wrap: anywhere;
+        word-break: break-word;
     }
 
 }
