@@ -2,14 +2,29 @@ html {
     scroll-behavior: smooth !important;
 }
 
+* {
+    box-sizing: border-box;
+}
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    padding-top: 80px;
+}
 
 
 /* =========================
    LOGO
 ========================= */
-
-
 
 
 .logo {
@@ -54,22 +69,24 @@ html {
 
 
 
+
+
 /* =========================
    NAVIGATION
 ========================= */
 
 .main-nav {
-     width: 100%;
+    width: 100%;
     background-color: white;
 
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
     z-index: 1000;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .main-nav ul {
@@ -130,7 +147,7 @@ HERO IMAGE
     width: 100%;
     height: 600px;
 
-    background-image: url("Bild ganzes Wohnzimmer couch.jpg");
+    background-image: url("Homepage_Borkum/Bild ganzes Wohnzimmer couch.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
@@ -162,34 +179,24 @@ DESIGN INFO CONTAINER
     text-align: center;
     margin-bottom: 50px;
     font-family: 'Playfere-Display';
-    font-weight: 200;
+    font-weight: 200
 }
 
 #home h2 {
     font-size: 2rem;
     line-height: 1.8;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    margin-left: 20%;
+    margin: 50px auto 20px;
     text-align: center;
-    font-family: 'Playfere-Display';
-    font-weight: 100;
-    width: 60%;
+    width: 100%;
 }
-
-
 
 #home h4 {
     font-size: 1rem;
     line-height: 1.8;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    margin-left: 20%;
+    margin: 50px auto 20px;
     text-align: center;
-    font-family: 'Playfere-Display';
-    font-weight: 100;
+    width: 100%;
     font-style: italic;
-    width: 60%;
 }
 
 
@@ -207,6 +214,12 @@ DESIGN INFO CONTAINER
 } 
 
 
+#home h2,
+#home h3,
+#home h4,
+#home p {
+    font-weight: 100 !important;
+}
 
 
 
@@ -595,17 +608,17 @@ KONTAKT
 
 /*KONTAKT*/
 
-
-
 @media screen and (max-width: 480px) {
 
     #kontakt {
         width: 100%;
-        padding: 0 25px 0 10px;
+        padding: 0 20px;
+        box-sizing: border-box;
     }
 
     #kontakt h2 {
         text-align: center;
+        padding: 50px 0;
     }
 
     #kontakt .kontaktinfos-grid {
@@ -613,15 +626,13 @@ KONTAKT
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-left: 0;
+        margin: 0 auto 100px;
         padding: 0;
-        transform: none;
     }
 
     #kontakt .kontaktinfo-item {
         width: 100%;
         text-align: center;
-        margin: 0;
+        margin: 10px 0;
     }
-
 }
