@@ -507,10 +507,10 @@ KONTAKT
 
 @media (max-width: 480px) {
 
-    #home {
-        /* margin: 10px auto;
-        padding: 0 10px; */
-    }
+    /* #home {
+        margin: 10px auto;
+        padding: 0 10px;
+    } */
 
     #home h1 {
         font-size: 2rem;
