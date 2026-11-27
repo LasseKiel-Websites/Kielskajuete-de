@@ -508,9 +508,8 @@ KONTAKT
 @media (max-width: 480px) {
 
     #home {
-        max-width: 100%;
-        margin: 30px auto;
-        padding: 0 18px;
+        margin: 10px auto;
+        padding: 0 10px;
     }
 
     #home h1 {
@@ -522,7 +521,7 @@ KONTAKT
         font-size: 1.5rem;
     }
 
-    #home p {
+    #home h4 {
         font-size: 0.95rem;
         line-height: 1.5;
     }
