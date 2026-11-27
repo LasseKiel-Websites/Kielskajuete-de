@@ -130,7 +130,7 @@ HERO IMAGE
     width: 100%;
     height: 600px;
 
-    background-image: url("Bild ganzes Wohnzimmer couch.jpg");
+    background-image: url("Homepage_Borkum/Bild ganzes Wohnzimmer couch.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
@@ -505,12 +505,14 @@ KONTAKT
 }
 
 
+
+
 @media (max-width: 480px) {
 
-    /* #home {
-        margin: 10px auto;
-        padding: 0 10px;
-    } */
+    #home {
+        margin: 30px auto;
+        padding: 0 18px;
+    }
 
     #home h1 {
         font-size: 2rem;
@@ -524,7 +526,10 @@ KONTAKT
     #home h4 {
         font-size: 0.95rem;
         line-height: 1.5;
-        width: 300px;
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        text-align: center;
     }
 
     #home img {
@@ -536,7 +541,6 @@ KONTAKT
         width: 100%;
         max-width: 300px;
     }
-
 }
 
 
@@ -562,6 +566,10 @@ KONTAKT
         height: 230px;
     }
 
+    .galerie-section h2 {
+        font-size: 1.5rem;
+    }
+
 }
 
 
@@ -576,6 +584,7 @@ KONTAKT
 
     .aktivitäten-section h2 {
         margin-bottom: 80px;
+        font-size: 1.5rem;
     }
 
 }
@@ -591,6 +600,10 @@ KONTAKT
         padding: 50px 20px;
     }
 
+    .aktivitäten-section h2 {
+        font-size: 1.5rem;
+    }
+
 }
 
 
@@ -604,6 +617,7 @@ KONTAKT
 
     #kontakt h2 {
         text-align: center;
+        font-size: 1.5rem;
     }
 
     #kontakt .kontaktinfos-grid {
